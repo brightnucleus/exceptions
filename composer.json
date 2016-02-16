@@ -1,0 +1,22 @@
+{
+	"name": "brightnucleus/exceptions",
+	"description": "Exceptions shared across Bright Nucleus components.",
+	"require-dev": {
+		"phpunit/phpunit": "~4",
+		"squizlabs/php_codesniffer": "~2.5"
+	},
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Alain Schlesser",
+			"email": "alain.schlesser@gmail.com"
+		}
+	],
+	"require": {
+	},
+	"autoload": {
+		"psr-4": {
+			"BrightNucleus\\Exception\\": "src/"
+		}
+	}
+}
