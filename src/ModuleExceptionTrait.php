@@ -25,7 +25,7 @@ trait ModuleExceptionTrait
      *
      * @var string
      */
-    protected $module;
+    protected $_bn_module;
 
     /**
      * Construct the exception.
@@ -52,18 +52,6 @@ trait ModuleExceptionTrait
     }
 
     /**
-     * Get the name of the module that has thrown the exception.
-     *
-     * @since 0.1.0
-     *
-     * @return string Name of the module that has thrown the exception.
-     */
-    public function get_module()
-    {
-        return (string)$this->module;
-    }
-
-    /**
      * Set the name of the module that has thrown the exception.
      *
      * @since 0.1.0
@@ -72,6 +60,18 @@ trait ModuleExceptionTrait
      */
     public function set_module($module)
     {
-        $this->module = (string)$module;
+        $this->_bn_module = (string)$module;
+    }
+
+    /**
+     * Get the name of the module that has thrown the exception.
+     *
+     * @since 0.1.0
+     *
+     * @return string Name of the module that has thrown the exception.
+     */
+    public function get_module()
+    {
+        return (string)$this->_bn_module;
     }
 }
