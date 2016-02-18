@@ -43,7 +43,7 @@ interface ExceptionInterface
      *
      * @return string Name of the module that has thrown the exception.
      */
-    public function get_module();
+    public function getModule();
 
     /**
      * Set the name of the module that has thrown the exception.
@@ -52,5 +52,5 @@ interface ExceptionInterface
      *
      * @param string $module Name of the module that has thrown the exception.
      */
-    public function set_module($module);
+    public function setModule($module);
 }

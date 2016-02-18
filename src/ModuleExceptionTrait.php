@@ -13,8 +13,6 @@
 
 namespace BrightNucleus\Exception;
 
-use Exception;
-
 trait ModuleExceptionTrait
 {
 
@@ -25,31 +23,7 @@ trait ModuleExceptionTrait
      *
      * @var string
      */
-    protected $_bn_module;
-
-    /**
-     * Construct the exception.
-     *
-     * @since 0.1.0
-     *
-     * @param string    $message  Optional. The Exception message to throw.
-     * @param int       $code     Optional. The Exception code.
-     * @param Exception $previous Optional. The previous exception used for the
-     *                            exception chaining.
-     * @param string    $module   Optional. Name of the module the exception
-     *                            was thrown in.
-     */
-    public function __construct($message = '', $code = 0, Exception $previous = null, $module = '')
-    {
-
-        parent::__construct($message, $code, $previous);
-
-        if ('' === $module) {
-            $module = (string)static::class;
-        }
-
-        $this->set_module($module);
-    }
+    protected $_bnModule;
 
     /**
      * Set the name of the module that has thrown the exception.
@@ -58,9 +32,9 @@ trait ModuleExceptionTrait
      *
      * @param string $module Name of the module that has thrown the exception.
      */
-    public function set_module($module)
+    public function setModule($module)
     {
-        $this->_bn_module = (string)$module;
+        $this->_bnModule = (string)$module;
     }
 
     /**
@@ -70,8 +44,8 @@ trait ModuleExceptionTrait
      *
      * @return string Name of the module that has thrown the exception.
      */
-    public function get_module()
+    public function getModule()
     {
-        return (string)$this->_bn_module;
+        return (string)$this->_bnModule;
     }
 }
