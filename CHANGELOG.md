@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.2] - 2016-03-04
+### Fixed
+- Switch `beberlei/assert` to own fork until [#138](https://github.com/beberlei/assert/issues/138) has been fixed.
+
 ## [0.2.1] - 2016-03-04
 ### Added
 - Added `AssertionFailedException` to be used with the `Assert\Assertion` class.
@@ -21,6 +25,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release to GitHub.
 
+[0.2.2]: https://github.com/brightnucleus/exceptions/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/brightnucleus/exceptions/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/brightnucleus/exceptions/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/brightnucleus/exceptions/compare/v0.1.0...v0.1.1
