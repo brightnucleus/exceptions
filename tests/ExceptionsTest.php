@@ -54,6 +54,13 @@ class ExceptionsTest extends \PHPUnit_Framework_TestCase
                             /** @var \BrightNucleus\Exception\ExceptionInterface $exception */
                             $exception->setModule($moduleName);
                             throw $exception;
+                        } catch (\BrightNucleus\Exception\AssertionFailedException $exception) {
+                            $caught[] = '\BrightNucleus\Exception\AssertionFailedException';
+                            $this->assertEquals(
+                                $moduleName,
+                                $exception->getModule()
+                            );
+                            throw $exception;
                         } catch (\BrightNucleus\Exception\BadFunctionCallException $exception) {
                             $caught[] = '\BrightNucleus\Exception\BadFunctionCallException';
                             $this->assertEquals(
@@ -259,6 +266,17 @@ class ExceptionsTest extends \PHPUnit_Framework_TestCase
     {
         return [
             // string $moduleName, string $createClass, array $expectedToCatch
+            [
+                'AssertionFailedException Test Module',
+                '\BrightNucleus\Exception\AssertionFailedException',
+                [
+                    '\BrightNucleus\Exception\AssertionFailedException',
+                    '\BrightNucleus\Exception\ExceptionInterface',
+                    '\InvalidArgumentException',
+                    '\LogicException',
+                    '\Exception',
+                ],
+            ],
             [
                 'BadFunctionCallException Test Module',
                 '\BrightNucleus\Exception\BadFunctionCallException',
