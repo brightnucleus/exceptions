@@ -14,14 +14,8 @@
       "email": "alain.schlesser@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/schlessera/assert"
-    }
-  ],
   "require": {
-    "beberlei/assert": "dev-schlessera-138-functions-file-causes-collisions"
+    "beberlei/assert": "^2.5"
   },
   "autoload": {
     "psr-4": {
