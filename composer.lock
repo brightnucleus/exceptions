@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e67cc38e9867eeb3ecdfab0340046bc4",
-    "content-hash": "cf1a5cf895e31366414e7d31c6bc040c",
+    "hash": "80cfb1596a6b304b377eb770cca72273",
+    "content-hash": "83352d9e38aa6f28e083c9393ee07eec",
     "packages": [
         {
             "name": "beberlei/assert",
-            "version": "dev-master",
+            "version": "v2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beberlei/assert.git",
@@ -1095,9 +1095,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
-    "prefer-stable": true,
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
