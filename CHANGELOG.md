@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.4] - 2016-04-05
+### Changed
+- Update Composer dependencies.
+
 ## [0.2.3] - 2016-03-22
 ### Fixed
 - Switch `beberlei/assert` back to official branch. Issue [#138](https://github.com/beberlei/assert/issues/138) has been fixed with v2.5.
@@ -29,7 +33,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release to GitHub.
 
-[0.2.2]: https://github.com/brightnucleus/exceptions/compare/v0.2.2...v0.2.3
+[0.2.4]: https://github.com/brightnucleus/exceptions/compare/v0.2.3...v0.2.4
+[0.2.3]: https://github.com/brightnucleus/exceptions/compare/v0.2.2...v0.2.3
+[0.2.2]: https://github.com/brightnucleus/exceptions/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/brightnucleus/exceptions/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/brightnucleus/exceptions/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/brightnucleus/exceptions/compare/v0.1.0...v0.1.1
