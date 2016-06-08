@@ -267,17 +267,6 @@ class ExceptionsTest extends \PHPUnit_Framework_TestCase
         return [
             // string $moduleName, string $createClass, array $expectedToCatch
             [
-                'AssertionFailedException Test Module',
-                '\BrightNucleus\Exception\AssertionFailedException',
-                [
-                    '\BrightNucleus\Exception\AssertionFailedException',
-                    '\BrightNucleus\Exception\ExceptionInterface',
-                    '\InvalidArgumentException',
-                    '\LogicException',
-                    '\Exception',
-                ],
-            ],
-            [
                 'BadFunctionCallException Test Module',
                 '\BrightNucleus\Exception\BadFunctionCallException',
                 [
