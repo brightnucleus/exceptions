@@ -1,7 +1,7 @@
 {
   "name": "brightnucleus/exceptions",
   "description": "Exceptions shared across Bright Nucleus components.",
-  "license": "GPL-2.0+",
+  "license": "MIT",
   "authors": [
     {
       "name": "Alain Schlesser",

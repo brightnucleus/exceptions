@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.3.0] - 2017-04-11
+### Changed
+- Changed licensing from GPL 2.0+ to MIT. See [LICENSE file](LICENSE).
+
 ## [0.2.5] - 2016-06-08
 ### Removed
 - Remove `beberlei/assert` and all assertions until a better replacement has been found.
@@ -37,6 +41,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release to GitHub.
 
+[0.3.0]: https://github.com/brightnucleus/exceptions/compare/v0.2.5...v0.3.0
 [0.2.5]: https://github.com/brightnucleus/exceptions/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/brightnucleus/exceptions/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/brightnucleus/exceptions/compare/v0.2.2...v0.2.3

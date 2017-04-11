@@ -1,15 +1,9 @@
 # Bright Nucleus Exceptions Component
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/brightnucleus/exceptions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/brightnucleus/exceptions/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/brightnucleus/exceptions/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/brightnucleus/exceptions/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/brightnucleus/exceptions/badges/build.png?b=master)](https://scrutinizer-ci.com/g/brightnucleus/exceptions/build-status/master)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/50b6ac5694ae427280eba3efd91cc1ea)](https://www.codacy.com/app/BrightNucleus/exceptions)
-[![Code Climate](https://codeclimate.com/github/brightnucleus/exceptions/badges/gpa.svg)](https://codeclimate.com/github/brightnucleus/exceptions)
-
-[![Latest Stable Version](https://poser.pugx.org/brightnucleus/exceptions/v/stable)](https://packagist.org/packages/brightnucleus/exceptions)
-[![Total Downloads](https://poser.pugx.org/brightnucleus/exceptions/downloads)](https://packagist.org/packages/brightnucleus/exceptions)
-[![Latest Unstable Version](https://poser.pugx.org/brightnucleus/exceptions/v/unstable)](https://packagist.org/packages/brightnucleus/exceptions)
-[![License](https://poser.pugx.org/brightnucleus/exceptions/license)](https://packagist.org/packages/brightnucleus/exceptions)
+[![Latest Stable Version](https://img.shields.io/packagist/v/brightnucleus/exceptions.svg)](https://packagist.org/packages/brightnucleus/exceptions)
+[![Total Downloads](https://img.shields.io/packagist/dt/brightnucleus/exceptions.svg)](https://packagist.org/packages/brightnucleus/exceptions)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/brightnucleus/exceptions.svg)](https://packagist.org/packages/brightnucleus/exceptions)
+[![License](https://img.shields.io/packagist/l/brightnucleus/exceptions.svg)](https://packagist.org/packages/brightnucleus/exceptions)
 
 Set of exceptions shared across Bright Nucleus components. This lets you catch library-specific exceptions (if needed).
 
@@ -23,11 +17,14 @@ composer require brightnucleus/exceptions
 
 ## Usage
 
+> TODO
+
 ## Contributing
 
 All feedback / bug reports / pull requests are welcome.
 
-Please use the provided `pre-commit` hook. To install it, run the following command from the project's root:
-```BASH
-ln -s ../../.pre-commit .git/hooks/pre-commit
-```
+## License
+
+Copyright (c) 2017 Alain Schlesser, Bright Nucleus
+
+This code is licensed under the [MIT License](LICENSE).
