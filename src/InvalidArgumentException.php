@@ -25,7 +25,8 @@ use InvalidArgumentException as StandardInvalidArgumentException;
  * @package BrightNucleus\Exception
  * @author  Alain Schlesser <alain.schlesser@gmail.com>
  */
-class InvalidArgumentException extends StandardInvalidArgumentException implements ExceptionInterface {
+class InvalidArgumentException extends StandardInvalidArgumentException implements ExceptionInterface
+{
 
-	use ModuleExceptionTrait;
+    use ModuleExceptionTrait;
 }

@@ -23,7 +23,7 @@ trait ModuleExceptionTrait
      *
      * @var string
      */
-    protected $_bnModule;
+    protected $bnModule;
 
     /**
      * Set the name of the module that has thrown the exception.
@@ -34,7 +34,7 @@ trait ModuleExceptionTrait
      */
     public function setModule($module)
     {
-        $this->_bnModule = (string)$module;
+        $this->bnModule = (string)$module;
     }
 
     /**
@@ -46,6 +46,6 @@ trait ModuleExceptionTrait
      */
     public function getModule()
     {
-        return (string)$this->_bnModule;
+        return (string)$this->bnModule;
     }
 }

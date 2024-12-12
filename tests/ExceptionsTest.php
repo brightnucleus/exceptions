@@ -11,6 +11,8 @@
 
 namespace BrightNucleus\Exception;
 
+use BrightNucleus\Exception\Tests\TestCase;
+
 /**
  * Class ExceptionsTest
  *
@@ -19,7 +21,7 @@ namespace BrightNucleus\Exception;
  * @package BrightNucleus\Exception
  * @author  Alain Schlesser <alain.schlesser@gmail.com>
  */
-class ExceptionsTest extends \PHPUnit_Framework_TestCase
+class ExceptionsTest extends TestCase
 {
 
     /**
